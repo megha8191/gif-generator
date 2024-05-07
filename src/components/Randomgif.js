@@ -5,11 +5,6 @@ import useGif from '../hooks/useGif';
 const Randomgif = () => {
   const {random, fetchInfo,isLoading} = useGif();
 
-  // setTimeout(() => {
-  //   console.log(random)
-  // }, 300);
-
-
   return (
     <div>
        {isLoading ? 

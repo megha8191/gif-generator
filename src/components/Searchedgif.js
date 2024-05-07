@@ -4,7 +4,7 @@ import useGif from '../hooks/useGif';
 
 
 const Searchedgif = () => {
-  const [query,setQuery] = useState('');
+  const [query,setQuery] = useState('cute');
   const {random, fetchInfo,isLoading} =useGif(query);
  
   return (

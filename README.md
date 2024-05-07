@@ -29,9 +29,12 @@ Difference:
   }
 
 ## .env  : write environment var
-Api_key="3DsF26NuShVBNrt";
+REACT_APP_ is a naming convention recommended by Create React App (CRA) for defining custom environment variables that will be accessible in your React components.
+
+REACT_APP_API_KEY="3DsF26NuShVBNrt";
+REACT_APP_EMOJI_API_KEY=your_emoji_api_key;
 
 Access using :
-const keyvar = process.env.api_key
+const keyvar = process.env.REACT_APP_API_KEY
 
 
